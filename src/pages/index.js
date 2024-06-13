@@ -25,7 +25,7 @@ export default function Index() {
     fd.append("image", formData.image);
 
     try {
-      const res = await axios.post(`http://134.209.101.73:5000/`, fd, {
+      const res = await axios.post(`http://134.209.101.73:5000/upload`, fd, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
