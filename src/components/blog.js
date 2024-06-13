@@ -31,8 +31,8 @@ export default function Blogs({ images }) {
                 <div className="mt-6 flex flex-col">
                   <div className="flex mb-4">
                     <span className="flex items-center text-slate-400 text-sm">
-                      {/* <FiCalendar className="size-4 text-slate-900 dark:text-white me-1.5" />
-                      {item.size} */}
+                      {/* <FiCalendar className="size-4 text-slate-900 dark:text-white me-1.5" /> */}
+                      {item.size} B
                     </span>
                     <span className="flex items-center text-slate-400 text-sm ms-3">
                       {/* <FiClock className="size-4 text-slate-900 dark:text-white me-1.5" />
